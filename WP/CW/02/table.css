@@ -1,0 +1,72 @@
+
+table, th, td {
+	border: 1px solid black;
+	text-align:center;
+	font-size: 20px;
+
+ }
+  body {
+  background-color: PapayaWhip;
+}
+ 
+caption{
+	font-weight: bold;   
+	text-align:center;
+	font-size: 40px;
+      }
+ td{
+   background-color: powderblue;
+   color:black;
+ }
+ 
+.CSC2720{
+  background-color: blue;
+  color:white;
+  font-weight:bold;
+}
+
+.CSC6320{
+  background-color: mediumseagreen;
+  color:white;
+  font-weight:bold;
+}
+
+.CSC6370{
+  background-color: mediumorchid;
+  color:white;
+  font-weight:bold;
+}
+.lunch{
+  background-color: orange;
+  color:black;
+  font-weight:bold;
+}
+.free{
+  background-color: MediumSpringGreen;
+  color:black;
+  font-weight:bold;
+}
+
+.commute{
+  background-color: Lavender;
+  color:black;
+  font-weight:bold;
+}
+
+.dinner{
+  background-color: tomato;
+  color:black;
+  font-weight:bold;
+}
+
+.work{
+  background-color: yellowgreen;
+  color:black;
+  font-weight:bold;
+}
+.CSC8900{
+  background-color: slategray;
+  color:white;
+  font-weight:bold;
+}
+

@@ -1,0 +1,103 @@
+
+table, th, td {
+	text-align:center;
+ }
+ 
+A {
+	text-decoration:none;
+	color: black;
+	padding: 5px;
+
+   }
+A:hover {
+	background-color: orange;
+	border-radius: 20px 20px 20px 20px;
+
+	
+}
+   
+caption{
+	font-weight: bold;   
+	text-align:center;
+	font-size: 30px;
+	font-family: Comic Sans MS; 
+
+	}
+
+td {
+	text-align:center;   
+	font-size: 18px;
+	font-family: Comic Sans MS; 
+	
+
+ }
+ 
+ th {
+	font-weight:bold;
+	text-align:center;   
+	font-size: 25px;
+	font-family: Comic Sans MS; 
+}
+
+#header{
+	text-align:right;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;	
+	background-color:lightblue;
+	margin:2%;
+}
+
+.box2{
+	text-align:left;
+	float:right;
+	font-size:16px;
+	color:black;
+	border:5px;
+	border-style: dashed;
+	border-color:teal;
+	width:85%;
+	background-color:lightblue;
+	margin-right:2%;
+
+
+}
+
+.friends{
+	margin-left:2%;
+	text-align:center;
+	float:left;
+	color:black;
+	border:5px;
+	border-style: solid;
+	border-color:teal;
+	background-color:lightblue;
+	padding:5px;
+	width:7%;
+
+}
+
+
+
+.box3{
+	margin-top:1%;
+	clear:both;
+	text-align:left;
+	float:right;
+	font-size:16px;
+	color:black;
+	border:5px;
+	border-style: dashed;
+	border-color:teal;
+	width:85%;
+	background-color:lightblue;
+	margin-right:2%;
+
+}
+.box-body{
+	display:inline;
+	
+}
+.
+
+.

@@ -1,0 +1,45 @@
+
+table, th, td {
+	text-align:center;
+ }
+ 
+A {
+	text-decoration:none;
+	color: black;
+	padding: 5px;
+
+   }
+A:hover {
+	background-color: orange;
+	border-radius: 20px 20px 20px 20px;
+
+	
+}
+   
+caption{
+	font-weight: bold;   
+	text-align:center;
+	font-size: 30px;
+	font-family: Comic Sans MS; 
+
+	}
+
+td {
+	text-align:center;   
+	font-size: 18px;
+	font-family: Comic Sans MS; 
+	
+
+ }
+ 
+ th {
+	 font-weight:bold;
+	text-align:center;   
+	font-size: 25px;
+	font-family: Comic Sans MS; 
+}
+
+#header{
+	text-align:center;
+	
+}
