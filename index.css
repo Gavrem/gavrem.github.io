@@ -1,30 +1,32 @@
 *{
 	font-family:Comic Sans MS; 
 }
-#GFG{
-	content: "";
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-
-	/* Specify the background image to be used */
-	background-image: url('../../IMG/background1.jpg');
-
-	/* Specify the background image */
-	opacity: 0.5;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index:-1;
+body{
+	margin:0;
 }
+
+.backgroundImage {
+    Position:fixed;
+    Top: 0;
+    Bottom: 0;
+    Width: 100vh;
+    Height: 100vh;
+    Opacity: 0.6;
+    Z-index: -5000;
+}
+
+.backgroundImage img {
+    width:100vw;
+    height: 100vh;
+}
+	
 
 
 
 table, th, td {
 	text-align:center;
+	 padding: 6px;
+
  }
  
 A {
@@ -36,9 +38,9 @@ A {
 A:hover {
 	background-color: orange;
 	border-radius: 20px 20px 20px 20px;
-
-	
 }
+
+
    
 caption{
 	font-weight: bold;   
@@ -50,7 +52,7 @@ caption{
 
 td {
 	text-align:center;   
-	font-size: 18px;
+	font-size: 24px;
 	font-family: Comic Sans MS; 
 	
 
@@ -59,7 +61,7 @@ td {
  th {
 	 font-weight:bold;
 	text-align:center;   
-	font-size: 25px;
+	font-size: 30px;
 	font-family: Comic Sans MS; 
 }
 
@@ -82,10 +84,14 @@ td {
 
 #footer
 {		
-	float:bottom;
+	clear:both;
 	text-align:center;   
 	font-size: 10px;
 	font-family: arial; 
+	clear: both;
+    position: relative;
+    height: 50px;
+    margin-bottom:-100%;
 }
 
 #content
@@ -112,26 +118,31 @@ td {
 }
 
 #footer img {
+	padding:20px;
 	opacity: 1;
 	display: inline;
 	float:center;
-	width:32px;
-	height:32px;
+	width:4%;
+	
 
 }
-.sevki-table{
+.sevki-table {
+	width:35%;
 	position:relative;
 	margin-left: 33%;
+	border-spacing: 3px;
+	border-collapse: separate;
 }
+
 .sevki-table th{ 
 	  background: #aaaaff;
 	}
 .sevki-table tr:nth-child(odd) { 
-	  background: dodgerblue;
+	  background: rgba(30,144,255,.6);
 	}
 	
 .sevki-table tr:nth-child(even) { 
-	  background: Gainsboro;
+	  background: rgba(230,230,230,.6);
 	}
 .sevki-table thead th:first-child {
     border-radius: 100px 0 0 100px;
@@ -160,7 +171,7 @@ td {
 #menu{
 	text-align:center;
 	justify-content: space-between;
-
+	position: relative;
 }
 
 h1{
@@ -190,11 +201,16 @@ ul,ol{
 
 }
 .hobby-table{
-	margin-top:-10%;
+	position:relative;
+	margin-top:-6%;
+	height:auto;
 	text-align:center;
 	z-index:10;
+	width:35%; 
+	margin-left: auto;
+	margin-right: auto;
+  }
 
-}
 
 .hobby-table tr{ 
 	  background: rgba(255,228,225,.6);
@@ -252,9 +268,9 @@ ul>li{
 
 .interest{
 	margin-right:3%;
-	margin-top:-12%;
+	margin-top:-13%;
 	color: black;
-	width: 335px; 
+	width: 350px; 
 	float: right;
 	background: rgb(230, 230, 250); /* Fallback for older browsers without RGBA-support */
     background: rgba(230, 230, 250, 0.7);
@@ -270,7 +286,12 @@ ul>li{
 
 .interest li{
 	text-align:left;
+	list-style: square  url('../../IMG/load.gif');
+	font-size:14pt; 
+}
 
+.interest h1{
+	font-size: 24px;
 }
 
 #menu A:hover {
@@ -278,12 +299,38 @@ ul>li{
 	color:white;
 	border-radius: 20px 20px 20px 20px;
 }
+#github{
+    position: relative;
+}
+
+#github-img{
+	position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+#github:hover{
+	width:100%;
+	cursor: pointer;
+	visibility: hidden;
+    opacity: 1; 
+}
+
+#github:hover A{
+	width:10%;
+	background-color: transparent;
+	position: absolute;
+	margin-left:-40%;
+    visibility: visible;
+    opacity: 1; 
+}
+
 
 
 #footer A:hover {
-	background-color: blue;
+	background-color: transparent;
 	color:white;
 	border-radius: 20px 20px 20px 20px;
+	
 }
 
 
@@ -312,3 +359,9 @@ ul>li{
 	font-weight:bold;
 	border-radius: 30px 30px 30px 30px;	  
 }
+
+.headshot{
+	border:0px;
+}
+
+img { border: 0px; }
