@@ -66,21 +66,22 @@ td {
 }
 
 #head_h1{
-	margin-left: 200px
-
+	margin-left:10%;
+		vertical-align:middle;
 }
 
 
 #header
-{
+{	
 	text-align:center;
 	font-weight: bold;   
 	font-size: 35px;
 	font-family: Comic Sans MS; 
 	margin: 0 auto;
-		
+	padding: 25px;
  
   }
+  
 
 #footer
 {		
@@ -109,6 +110,7 @@ td {
 	height:150px;
 	border-radius: 40%;
 	object-fit: cover;
+	margin-top:-25px;
 
 }
 #header h1{
@@ -169,6 +171,7 @@ td {
 }
 
 #menu{
+	margin-top:4px;
 	text-align:center;
 	justify-content: space-between;
 	position: relative;
@@ -286,7 +289,7 @@ ul>li{
 
 .interest li{
 	text-align:left;
-	list-style: square  url('../../IMG/load.gif');
+	list-style: square  url('WP/IMG/load.gif');
 	font-size:14pt; 
 }
 
@@ -346,7 +349,7 @@ ul>li{
 	background: rgb(255, 0, 0); 
     background: rgba(255, 0, 0, 0.7);
 	border-radius: 30px 30px 30px 30px;	  
-	margin-top:-15%;	
+	margin-top:-12%;	
 	text-align:center;
 
 }
