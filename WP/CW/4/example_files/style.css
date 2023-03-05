@@ -1,0 +1,48 @@
+#header{
+	text-align:center;
+}
+
+#sub_header{
+	text-align:center;
+}
+
+
+#main{
+	margin:auto;
+	width:70%;
+	display:flex;
+}
+
+
+.box_temp{
+	text-align:left;
+	border:4px;
+	border-style:dashed;
+	border-color:red;
+	
+	padding:2em;
+	margin:2em;	
+}
+
+#right{
+	flex-basis:67%;
+}
+#left{
+	flex-basis:33%;
+}
+
+
+
+#right img{
+	width:200px;
+	float:right;
+}
+
+.main_bottom{
+	clear:both;
+}
+
+#last{
+	position: fixed;	
+	bottom:5px;
+}

@@ -1,0 +1,68 @@
+*{
+	font-family: Comic Sans ms;
+}
+body{
+	background-color:rgba(200,50,200, 0.4);
+}
+
+table, th, td {
+	text-align:center;
+	padding:16px;
+ }
+ 
+ p{
+	 font-size:16px;
+ }
+ 
+#header{
+	text-align:center;
+	font-size:24px;
+}
+
+#center-table {
+	text-align:center;
+	
+	
+}
+
+.main {
+	text-align:center;
+}
+
+.center-table {
+	width:35%;
+	position:relative;
+	margin-left: 33%;
+	border-spacing: 3px;
+	border-collapse: separate;
+}
+
+.center-table caption{ 
+	font-size:30px;	
+	}
+
+.center-table th{ 
+	  background: rgba(1,170,170,.6);
+	}
+.center-table tr:nth-child(odd) { 
+	  background: rgba(01,244,155,.6);
+	}
+	
+.center-table tr:nth-child(even) { 
+	  background: rgba(150,240,150,.6);
+	}
+.center-table thead th:first-child {
+    border-radius: 100px 100px 100px 100px;
+}
+
+
+
+
+.center-table tbody tr:first-child td:first-child {
+    border-radius: 50px 50px 0 0;
+}
+
+.center-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 50px 50px;
+}
+

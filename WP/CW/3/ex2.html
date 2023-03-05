@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> University of Georgia State Example on embedded style sheets</title>
+<style>
+Body {
+font-family : "times new roman;
+margin-left : 20%;
+margin-right: 20%;
+text-align : justify;
+background : ivory; color : red;
+}
+P {
+text-indent : 2cm;
+}
+h1,h2,h3{ color: red ; marginleft:2cm;
+}
+
+.main{	
+	position:absolute;
+	float:left;
+	width:100%;
+
+}
+.answer{
+	float:right;
+	position:absolute;
+	text-align:center;
+	color:blue;
+	border-style:dashed;
+	border-color:blue;
+	width:25%;
+	margin-left:35%;
+}
+.italic{
+  font-style: italic;
+  font-weight:bold;
+  color:green;
+  font-size:18px;
+}
+</style>
+</head> 
+<body>
+<div class="main">
+<div>
+<P style="text-indent: 2cm; color: red;">
+This paragraph has been formatted using the in-line style command.
+</P>
+<P>
+This paragraph has not been formatted using the in-line style command.
+</P>
+<div>
+<div class="answer">
+<p>
+	a semicolon is missing at the <span class="italic"> "marginleft:2cm" </span>.
+</p>
+</div>
+
+</div>
+
+<p align="left">
+<A  HREF="index.html"> <IMG SRC="../../IMG/home.png" alt="to the home page"" width=64 height=64 border=0 align="center"></A>
+</p>
+</body>
+</html>

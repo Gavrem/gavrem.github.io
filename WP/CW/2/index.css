@@ -1,0 +1,50 @@
+
+table, th, td {
+	border: 1px solid black;
+	text-align:center;
+	font-size: 20px;
+ }
+ body {
+  background-color: mistyrose;
+}
+caption{
+	font-weight: bold;   
+	text-align:left;
+	font-size: 40px;
+	}
+
+td {
+   background-color: palegreen;
+   color:black;
+   font-weight: bold;   
+ }
+ .act1{
+  background-color: LightSkyBlue;
+  color:balck;
+  font-weight:bold;
+}
+ .act2{
+  background-color: PaleTurquoise;
+  color:balck;
+  font-weight:bold;
+}
+ .act3{
+  background-color: MediumAquaMarine;
+  color:balck;
+  font-weight:bold;
+}
+ .act4{
+  background-color: sandybrown;
+  color:balck;
+  font-weight:bold;
+}
+ .act5{
+  background-color: OliveDrab;
+  color:balck;
+  font-weight:bold;
+}
+ .act6{
+  background-color: plum;
+  color:balck;
+  font-weight:bold;
+}

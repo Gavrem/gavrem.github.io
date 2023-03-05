@@ -1,0 +1,61 @@
+.verse{
+	font-size:14px;
+	font-family: Trebuchet MS;
+	font-weight:Bold;
+	color:gold;
+	margin-left:2cm;
+	margin-right:2cm;
+}
+
+.chorus{
+	font-size:14px;
+	font-family: Arial;
+	font-weight:Bold;
+	font-style:italic;
+	color:gold;
+	margin-left:4cm;
+	margin-right:4cm;}
+
+.artist{
+	font-size:14px;
+	font-family: Trebuchet MS;
+	font-weight:Bold;
+	color:Moccasin;
+}
+.album{
+	font-size:12px;
+	font-family:Arial;
+	font-weight:Bold;
+	color:Khaki;
+}
+
+.year{
+	font-size:12px;
+	font-family:Arial;
+	font-weight:Bold;
+	color:Khaki;
+}
+
+.song_title{
+	font-size:14px;
+	font-family: arial;
+	font-weight:normal;
+	color:Khaki;
+}
+
+.song_info{
+	margin-left:30%;
+	border-style:solid;
+	width:40%;
+	padding:10px;
+}
+body{
+	background-color:	Chocolate;
+
+}
+
+.lyrics{
+	text-align:center;
+	width:90%;	
+	margin-left:5%;
+}
