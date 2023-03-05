@@ -1,0 +1,183 @@
+/*This is page two*/
+
+trainbody {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+.header {
+  padding: 10px 16px;
+  color: black;
+  font-family: cursive;
+  font-size: 16pt;
+}
+.header-right {
+  float: right;
+  color: black;
+}
+.header a.active {
+	color: White;
+	font-size: 25pt;
+	background-color: rgba(0,0,0,0.5);
+	border-radius:25px;
+
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgba(250,250,250,0.5);
+  border-radius:25px;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.title{
+	text-align:center;
+  font-family:cursive;
+  font-size: 30px;
+  margin-top:-50px;
+}
+.title h2{
+	width:40%;
+	border-radius:80px;
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	font-size:50pt;
+	
+
+}
+
+
+.title img{
+	border-radius:80px;
+}
+
+.partition{
+        width: 1850px;
+        height: 300%; 
+		margin-left:auto;
+		margin-right:auto;
+		
+    }
+	
+.box {
+	transition:0.8s;
+	width: 350px;
+	height: 450px;
+	margin: 35px;
+	margin-left: 125px;
+	margin-right: 125px;
+	border-radius:10px;
+	border: 1px solid #ccc;
+	background: #fff;
+	float: left;
+}
+
+.box:hover {
+	transition:0.4s;
+	box-shadow: 0 0 	30px black; 
+	border-radius: 50px;
+}
+
+.box_pic{
+	background-color:orange;
+	border-radius:100px;
+}
+
+.box_pic:hover {
+	background-color:red;
+	transition:0.4s;
+	box-shadow: 0 0 	30px black; 
+	border-radius: 50px;
+}
+ 
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 150px;
+}
+.feature{
+	padding-left:10px;
+	font-weight:bold;
+}
+.pros{
+	padding-left:10px;
+	font-size:13px;
+	display:flex;
+}
+
+.procon{
+	float:left;
+	padding:10px;
+	margin-top:-35px;
+	
+}
+.p{
+    display: block;
+  
+}
+ 
+ 
+.btn {
+	background-color: #ddd;
+	border: none;
+	color: black;
+	padding: 11px 34px;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 #734f96;
+	transition: ease-out 0.1s;
+	transition: width 2s, height 2s, transform 2s;
+	border-radius:10px;
+}
+
+.btn:hover { 
+   box-shadow: inset 400px 0 0 0 #734f96;
+   transform: rotate(360deg);
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("IMG/bckgrnd.jpg");
+  background-attachment:fixed;
+}
+.partition2{
+    width: 1000px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 420px;
+    background-repeat: no-repeat;
+     
+    }
+	.part2_left{
+		width:33.3%
+	}
+	.part2_center{
+		width:33.3%
+	}
+	.part2_right{
+		width:33.3%
+	}
+	.pup{
+		width:300px;
+		height:200px
+    
+	}

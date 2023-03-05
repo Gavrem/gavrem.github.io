@@ -1,0 +1,61 @@
+*{
+	font-size:14pt;
+  
+}
+.title {
+   width:1000px;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+}
+
+.title h2{
+    font-style: italic;
+    color: White;
+	font-size: 30pt;
+	margin: 0; 
+	padding-top:20px;
+}
+
+.header{
+	float:left;
+	padding:1em;
+	
+}
+.header a{
+	color:white;
+}
+
+.header:hover {
+	border-radius:25px;
+	background-color:rgba(250,250,250,0.3);
+}
+
+.header:hover a{
+	color:black;
+	
+}
+ .sum{
+	 clear:both;
+	border-style: double;
+	border-color: white;
+    color:white ;
+	font-size: 20px;
+	padding:1em;
+	margin:1em;
+	background-color:rgba(0,0,0,0.2);
+	border-radius:5px;
+
+
+}
+body
+{
+    margin:0;
+    padding:0;
+    height: 90%; 
+    background-image: url(IMG/bckgrnd.jpg);
+}
+h4{
+    font-weight: bold;
+    text-align: left;
+}

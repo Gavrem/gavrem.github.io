@@ -1,0 +1,131 @@
+body,html
+{
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-image: url(IMG/carbckgrnd.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    position: relative;
+    opacity: 0.85;
+}
+.container{
+    padding-top: 30px;
+    box-sizing:border-box;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-sizing:border-box;
+    justify-content: space-between;
+    margin: auto;
+	padding:1em;
+}
+.logo{
+    width:155px;
+    font-family: cursive;
+    color: #fff;
+}
+.logo img{
+    width:50px;
+    position: relative;
+    z-index:10;
+}
+.heading h3{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    flex:1;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    position: relative;
+    justify-content: space-between;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width: 0%;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+button{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size:16px;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient( to right, transparent 50%, #ffc107 50%);
+	background-color:rgba(250,250,250,0.5);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover{
+    background-position: right;
+}
+.slider{
+    color: #ffc107;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+    overflow: hidden;
+}
+@keyframes slider{
+    0%{margin-top: -400px;}
+    5%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: -100px;}
+    65%{margin-top: -100px;}
+    70%{margin-top:  0px;}
+    100%{margin-top: 0px;}
+} 
+.content{
+    width: 99%;
+    position: absolute;
+    top:50%;
+    left: 1%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.title{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    overflow: hidden;
+
+}
+.content p{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+
+}
