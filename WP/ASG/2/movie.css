@@ -1,0 +1,202 @@
+*{
+	font-size:8pt;
+	font-family:Verdana;
+}
+#banner{
+	text-align:center;
+}
+#banner_back{
+	background-image: url("../../IMG/green_bck.png");
+	background-repeat: repeat-x;
+}
+#banner_back img{
+	height:50px;
+}
+
+body{ 	
+	background-image: url("../../IMG/background.png");
+	background-repeat: repeat;
+	margin:0px
+}
+
+#heading{
+	text-align:center;
+}
+#heading p{
+	text-align:center;
+	font-size:24pt;
+	font-family:Tahoma;
+	font-weight:bold;
+	
+}
+
+#content{
+	float:left;
+	border: 4px;
+	border-style:solid;
+	border-color:gray;
+	width:800px;
+    margin: 0 auto;
+	display: block;
+	overflow: hidden;
+	}
+
+#rating{
+	float:left;
+	width:550px;
+	background-image: url("../../IMG/rottenbackground.png");
+	background-repeat: repeat-x;
+	bottom:10px;
+	float:left;
+	display: flex;
+  }
+
+
+.rott_cont1{
+	height:83px;
+	width:100px;	
+	float:left;
+	display:inline-block;
+
+
+}
+.rott_cont2{
+	height:83px;
+	width:180px;	
+	
+	display:inline-block;
+	float:left;
+	position:relative;
+	bottom:6px;
+}
+
+.rott_cont2 p{
+	position:relative;
+	bottom:50px;
+	color:red;
+	font-weight:bold;
+	font-size:48pt;
+}
+.rott_cont3{
+	height:83px;
+	width:150px;	
+	color:white;
+	font-size:8pt;
+	display:inline-block;
+	float:left;	
+	position:relative;
+	bottom:2px;
+	
+}
+
+.rott_cont3 p{
+	position:relative;
+	bottom:-50px;
+}
+#review{
+	width:550px;
+	display:flex;
+	
+}
+
+.column{
+	width:47%;
+	padding-top:2%;
+	padding-left:2%;
+	
+
+}
+
+#left{
+	float:left;
+	width:550px;
+	display:inline-block;
+
+}
+
+
+
+.box{
+	width:92%;
+	border: 2px;
+	border-style:solid;
+	border-color:gray;
+	font-weight:bold;
+	font-size:8pt;
+	background-color:#E1D697;
+	padding:8px;
+	display:inline-block;
+	height: fit-content;
+	
+}
+.box img{
+	float:left;
+	padding-right:5px;	
+	
+}
+.box p{
+	margin:1px;
+}
+
+.reviewer{
+	margin-bottom:3em;
+}
+.reviewer img{
+	float:left;
+	padding-right:5px;	
+
+}
+
+#right{
+	width:250px;
+	float:right;
+}
+
+
+#right_box{
+	position:relative;
+	bottom:5px;
+	width:230px;
+	padding:10px;
+	background-color: #A2B964;
+	font-family:Arial;
+	font-size:8pt;
+	float:right;
+	margin-bottom:-25px;
+}
+
+dt{
+	font-weight:bold;
+}
+dd{
+	padding-bottom:1em;
+}
+
+#bottom{
+	background-color:#A2B964;
+	padding:5px;
+	text-align:center;
+	width:790px;
+	height:11px;
+	clear:both;
+	}
+
+#bottom p{
+	position:relative;
+	bottom:12px;
+}
+
+#valid{
+	width:250px;
+	text-align:center;
+	position:relative;
+	float:right;
+	bottom:100px;
+}
+#main{
+	width:990px;
+	margin:auto;
+	position:relative;
+	left:100px;
+	overflow: hidden;
+}

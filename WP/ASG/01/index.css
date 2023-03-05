@@ -1,30 +1,32 @@
 *{
 	font-family:Comic Sans MS; 
 }
-#GFG{
-	content: "";
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-
-	/* Specify the background image to be used */
-	background-image: url('../../IMG/background1.jpg');
-
-	/* Specify the background image */
-	opacity: 0.5;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index:-1;
+body{
+	margin:0;
 }
+
+.backgroundImage {
+    Position:fixed;
+    Top: 0;
+    Bottom: 0;
+    Width: 100vh;
+    Height: 100vh;
+    Opacity: 0.6;
+    Z-index: -5000;
+}
+
+.backgroundImage img {
+    width:100vw;
+    height: 100vh;
+}
+	
 
 
 
 table, th, td {
 	text-align:center;
+	 padding: 6px;
+
  }
  
 A {
@@ -36,9 +38,9 @@ A {
 A:hover {
 	background-color: orange;
 	border-radius: 20px 20px 20px 20px;
-
-	
 }
+
+
    
 caption{
 	font-weight: bold;   
@@ -50,7 +52,7 @@ caption{
 
 td {
 	text-align:center;   
-	font-size: 18px;
+	font-size: 24px;
 	font-family: Comic Sans MS; 
 	
 
@@ -59,33 +61,40 @@ td {
  th {
 	 font-weight:bold;
 	text-align:center;   
-	font-size: 25px;
+	font-size: 30px;
 	font-family: Comic Sans MS; 
 }
 
 #head_h1{
-	margin-left: 200px
-
+	margin-left:10%;
+		vertical-align:middle;
 }
 
 
 #header
-{
+{	
 	text-align:center;
 	font-weight: bold;   
 	font-size: 35px;
 	font-family: Comic Sans MS; 
 	margin: 0 auto;
-		
+	padding: 25px;
  
   }
+  
 
 #footer
 {		
-	float:bottom;
+	clear:both;
 	text-align:center;   
 	font-size: 10px;
 	font-family: arial; 
+	clear: both;
+    position: fixed;
+    height: 100px;
+	bottom:5px;
+	z-index:100;
+	background-color:rgba(230,230,230,0.5);	
 }
 
 #content
@@ -103,6 +112,7 @@ td {
 	height:150px;
 	border-radius: 40%;
 	object-fit: cover;
+	margin-top:-25px;
 
 }
 #header h1{
@@ -112,26 +122,46 @@ td {
 }
 
 #footer img {
+	padding:20px;
 	opacity: 1;
 	display: inline;
 	float:center;
-	width:32px;
-	height:32px;
+	width:4%;
+	
 
 }
-.sevki-table{
-	position:relative;
-	margin-left: 33%;
+.main_body_1{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	margin: 0 auto;
+}	
+
+#sevki_table_div{
+	width:35%;
+	margin: 5px;
+	
 }
+.sevki-table {
+	width:100%;
+	position:relative;
+	border-spacing: 3px;
+	border-collapse: separate;
+}
+
 .sevki-table th{ 
 	  background: #aaaaff;
 	}
 .sevki-table tr:nth-child(odd) { 
-	  background: dodgerblue;
+  background-image: linear-gradient(rgba(30,144,255,1), rgba(230,230,230,0.9));
+
 	}
 	
 .sevki-table tr:nth-child(even) { 
-	  background: Gainsboro;
+  background-image: linear-gradient(	rgba(230,230,230,0.9),rgba(30,144,255,1));
+	
 	}
 .sevki-table thead th:first-child {
     border-radius: 100px 0 0 100px;
@@ -158,9 +188,10 @@ td {
 }
 
 #menu{
+	margin-top:4px;
 	text-align:center;
 	justify-content: space-between;
-
+	position: relative;
 }
 
 h1{
@@ -190,11 +221,12 @@ ul,ol{
 
 }
 .hobby-table{
-	margin-top:-10%;
+	
 	text-align:center;
-	z-index:10;
+	width:35%; 
+	margin-left:30%;
+  }
 
-}
 
 .hobby-table tr{ 
 	  background: rgba(255,228,225,.6);
@@ -237,7 +269,10 @@ ul>li{
 	background: rgb(255, 255, 224); /* Fallback for older browsers without RGBA-support */
     background: rgba(255, 255, 224, 0.7);
 	border-radius: 30px 30px 30px 30px;	  
-	margin-left:3%;
+	margin: 2em	;
+	height:450px;
+
+
 	
 }
 .edu >ul,li{
@@ -250,15 +285,18 @@ ul>li{
 	font-family: Verdana ;
 }
 
+
 .interest{
-	margin-right:3%;
-	margin-top:-12%;
-	color: black;
-	width: 335px; 
 	float: right;
+	margin-right:3%;
+	color: black;
+	width: 20%; 
 	background: rgb(230, 230, 250); /* Fallback for older browsers without RGBA-support */
     background: rgba(230, 230, 250, 0.7);
-	border-radius: 30px 30px 30px 30px;	   
+	border-radius: 30px 30px 30px 30px;	 
+	height: 200px;
+	margin: 2em	;
+
 }
 
 
@@ -270,7 +308,12 @@ ul>li{
 
 .interest li{
 	text-align:left;
+	list-style: square  url('WP/IMG/load.gif');
+	font-size:14pt; 
+}
 
+.interest h1{
+	font-size: 24px;
 }
 
 #menu A:hover {
@@ -278,12 +321,38 @@ ul>li{
 	color:white;
 	border-radius: 20px 20px 20px 20px;
 }
+#github{
+    position: relative;
+}
+
+#github-img{
+	position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+#github:hover{
+	width:100%;
+	cursor: pointer;
+	visibility: hidden;
+    opacity: 1; 
+}
+
+#github:hover A{
+	width:10%;
+	background-color: transparent;
+	position: absolute;
+	margin-left:-40%;
+    visibility: visible;
+    opacity: 1; 
+}
+
 
 
 #footer A:hover {
-	background-color: blue;
+	background-color: transparent;
 	color:white;
 	border-radius: 20px 20px 20px 20px;
+	
 }
 
 
@@ -295,11 +364,10 @@ ul>li{
 	color: white;
 	width: 20%; 
 	float: right;
-	position:relative;
 	background: rgb(255, 0, 0); 
     background: rgba(255, 0, 0, 0.7);
 	border-radius: 30px 30px 30px 30px;	  
-	margin-top:-15%;	
+	margin-top:-12%;	
 	text-align:center;
 
 }
@@ -311,4 +379,26 @@ ul>li{
 	color:red;
 	font-weight:bold;
 	border-radius: 30px 30px 30px 30px;	  
+}
+
+.headshot{
+	border:0px;
+}
+
+img { border: 0px; }
+
+.main_body_2{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#hobby_div{
+	clear:both;
+	width:100%; 
+	float:right;
+	
 }
